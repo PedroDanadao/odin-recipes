@@ -1,0 +1,91 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-color: greenyellow;
+}
+
+section {
+    background-color: white;
+    inline-size: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.image_holder {
+    background-color: greenyellow;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    color: orangered;
+    text-shadow: 3px;
+}
+
+p {
+    text-align: left;
+}
+
+
+ul {
+    padding: 10px;
+}
+
+
+li {
+}
+
+.recipes_li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    list-style: none;
+}
+
+.spacer {
+    padding-top: 30px;
+}
+
+.dough {
+    text-align: right;
+    direction: rtl;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.filling {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.ingredients {
+    background-color: lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ingredients_list {
+    text-align: left;
+}
+
+.ingredients_list.dough {
+    text-align: right;
+}
+
+.steps {
+    background-color: lightyellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
